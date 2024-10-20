@@ -1,0 +1,218 @@
+package X;
+
+import com.facebookpay.offsite.models.message.OffsiteInitAvailabilityRequestKt;
+
+/* JADX WARN: Failed to restore enum class, 'enum' modifier and super class removed */
+/* JADX WARN: Unknown enum class pattern. Please report as an issue! */
+/* renamed from: X.5id, reason: invalid class name */
+/* loaded from: 5id.class */
+public final class C5id {
+    public static final /* synthetic */ C5id[] A00;
+    public static final C5id A01;
+    public static final C5id A02;
+    public static final C5id A03;
+    public static final C5id A04;
+    public static final C5id A05;
+    public static final C5id A06;
+    public static final C5id A07;
+    public static final C5id A08;
+    public static final C5id A09;
+    public static final C5id A0A;
+    public static final C5id A0B;
+    public static final C5id A0C;
+    public static final C5id A0D;
+    public static final C5id A0E;
+    public static final C5id A0F;
+    public static final C5id A0G;
+    public static final C5id A0H;
+    public static final C5id A0I;
+    public static final C5id A0J;
+    public static final C5id A0K;
+    public static final C5id A0L;
+    public static final C5id A0M;
+    public static final C5id A0N;
+    public static final C5id A0O;
+    public static final C5id A0P;
+    public static final C5id A0Q;
+    public static final C5id A0R;
+    public static final C5id A0S;
+    public static final C5id A0T;
+    public static final C5id A0U;
+    public static final C5id A0V;
+    public static final C5id A0W;
+    public static final C5id A0X;
+    public static final C5id A0Y;
+    public static final C5id A0Z;
+    public static final C5id A0a;
+    public static final C5id A0b;
+    public static final C5id A0c;
+    public static final C5id A0d;
+    public static final C5id A0e;
+    public static final C5id A0f;
+    public static final C5id A0g;
+    public static final C5id A0h;
+    public static final C5id A0i;
+    public static final C5id A0j;
+    public static final C5id A0k;
+    public static final C5id A0l;
+    public static final C5id A0m;
+    public static final C5id A0n;
+    public static final C5id A0o;
+    public static final C5id A0p;
+    public static final C5id A0q;
+    public static final C5id A0r;
+    public static final C5id A0s;
+    public static final C5id A0t;
+    public static final C5id A0u;
+    public static final C5id A0v;
+    public static final C5id A0w;
+    public static final C5id A0x;
+    public static final C5id A0y;
+    public static final C5id A0z;
+    public static final C5id A10;
+    public final String value;
+
+    static {
+        C5id c5id = new C5id("CONSENT_FLOW_DEEP_LINK", 0, "consent_flow_deep_link");
+        A0A = c5id;
+        C5id c5id2 = new C5id("ACCOUNT_SETTINGS_DEEP_LINK", 1, "account_settings_deep_link");
+        A02 = c5id2;
+        C5id c5id3 = new C5id("ACCOUNT_SETTINGS", 2, "account_settings");
+        A01 = c5id3;
+        C5id c5id4 = new C5id("ACTIVE_SESSION_LIST", 3, "active_session_list");
+        A03 = c5id4;
+        C5id c5id5 = new C5id("PHONE_CHANGE_SETTINGS", 4, "phone_change_settings");
+        A0m = c5id5;
+        C5id c5id6 = new C5id("MESSAGE", 5, "message");
+        A0U = c5id6;
+        C5id c5id7 = new C5id("SHARE_MESSAGE", 6, "share_message");
+        A0v = c5id7;
+        C5id c5id8 = new C5id("MESSENGER_IAB_TRANSPARENCY_SCREEN", 7, "messenger_iab_transparency_screen");
+        A0a = c5id8;
+        C5id c5id9 = new C5id("MESSENGER_ADS", 8, "messenger_ads");
+        A0X = c5id9;
+        C5id c5id10 = new C5id("MESSENGER_THREAD_DISCOVERABLE_PUBLIC_CHAT", 9, "messenger_thread_discoverable_public_chat");
+        A0i = c5id10;
+        C5id c5id11 = new C5id("MESSENGER_THREAD", 10, "messenger_thread");
+        A0h = c5id11;
+        C5id c5id12 = new C5id("MESSENGER_THREAD_THIRD_PARTY", 11, "messenger_thread_third_party");
+        A0j = c5id12;
+        C5id c5id13 = new C5id("MESSENGER_E2EE_THREAD", 12, "messenger_e2ee_thread");
+        A0Z = c5id13;
+        C5id c5id14 = new C5id("MESSENGER_MR_CALL", 13, "messenger_mr_call");
+        A0c = c5id14;
+        C5id c5id15 = new C5id("INBOX_ADS_REPORT", 14, "inbox_ads_report");
+        A0K = c5id15;
+        C5id c5id16 = new C5id("INBOX_ADS_RATING_TOOL", 15, "inbox_ads_rating_tool");
+        A0J = c5id16;
+        C5id c5id17 = new C5id("INBOX_ADS_HIDE", 16, "inbox_ads_hide");
+        A0I = c5id17;
+        C5id c5id18 = new C5id("INBOX_ADS_WHY", 17, "inbox_ads_why");
+        A0L = c5id18;
+        C5id c5id19 = new C5id("INBOX_ADS_HELP", 18, "inbox_ads_help");
+        A0H = c5id19;
+        C5id c5id20 = new C5id("MESSENGER_STORY_ADS", 19, "messenger_story_ads");
+        A0e = c5id20;
+        C5id c5id21 = new C5id("MESSENGER_STORY_ADS_REPORT", 20, "messenger_story_ads_report");
+        A0f = c5id21;
+        C5id c5id22 = new C5id("MESSENGER_STORY_AI_READY_MADE_LEARN_MORE", 21, "messenger_story_ai_ready_made_learn_more");
+        A0g = c5id22;
+        C5id c5id23 = new C5id("MESSENGER_BUSINESS_CONTEXT_PROFILE", 22, "messenger_business_context_profile");
+        A0Y = c5id23;
+        C5id c5id24 = new C5id("SPONSORED_MESSAGES_ADS", 23, "sponsored_messages_ads");
+        A0y = c5id24;
+        C5id c5id25 = new C5id("MARKETPLACE_BANNER", 24, "marketplace_banner");
+        A0O = c5id25;
+        C5id c5id26 = new C5id("MARKETPLACE_REPORT", 25, "marketplace_report");
+        A0R = c5id26;
+        C5id c5id27 = new C5id("MARKETPLACE_MEETING_LOCATION", 26, "marketplace_meeting_location");
+        A0P = c5id27;
+        C5id c5id28 = new C5id("MARKETPLACE_RATINGS", 27, "marketplace_ratings");
+        A0Q = c5id28;
+        C5id c5id29 = new C5id("MARKETPLACE_RESERVE_CHECKOUT", 28, "marketplace_reserve_checkout");
+        A0S = c5id29;
+        C5id c5id30 = new C5id("PAGE_MESSAGES", 29, "page_messages");
+        A0l = c5id30;
+        C5id c5id31 = new C5id("CHECKPOINT", 30, "checkpoint");
+        A05 = c5id31;
+        C5id c5id32 = new C5id("HIGH_SCHOOL_NETWORK", 31, "high_school_network");
+        A0G = c5id32;
+        C5id c5id33 = new C5id("FORM_PROGRESS_XMA", 32, "form_progress_xma");
+        A0E = c5id33;
+        C5id c5id34 = new C5id("ANIMATED_THREAD_ACTIVITY_BANNER", 33, "animated_thread_activity_banner");
+        A04 = c5id34;
+        C5id c5id35 = new C5id("ROOMS2LIVE_OPT_IN_LEARN_MORE", 34, "rooms2live_opt_in_learn_more");
+        A0t = c5id35;
+        C5id c5id36 = new C5id("ROOMS2LIVE_BROADCAST_LEARN_MORE", 35, "rooms2live_broadcast_learn_more");
+        A0p = c5id36;
+        C5id c5id37 = new C5id("ROOMS2LIVE_COMMUNITY_STANDARDS", 36, "rooms2live_community_standards");
+        A0q = c5id37;
+        C5id c5id38 = new C5id("ROOMS2LIVE_DATA_POLICY", 37, "rooms2live_data_policy");
+        A0r = c5id38;
+        C5id c5id39 = new C5id("ROOMS2LIVE_REPORT_OR_GIVE_FEEDBACK", 38, "rooms2live_report_or_give_feedback");
+        A0u = c5id39;
+        C5id c5id40 = new C5id("ROOMS2LIVE_FACEBOOK_LIVE_POLICIES", 39, "rooms2live_facebook_live_policies");
+        A0s = c5id40;
+        C5id c5id41 = new C5id("FX_CAL", 40, "fx_cal");
+        A0F = c5id41;
+        C5id c5id42 = new C5id("MESSAGING_ADS", 41, "messaging_ads");
+        A0W = c5id42;
+        C5id c5id43 = new C5id("CONSENT_FLOW_AI_STICKERS", 42, "consent_flow_ai_stickers");
+        A08 = c5id43;
+        C5id c5id44 = new C5id("CONSENT_FLOW_AI_THEMES", 43, "consent_flow_ai_themes");
+        A09 = c5id44;
+        C5id c5id45 = new C5id("CONSENT_FLOW_WRITE_WITH_AI", 44, "consent_flow_write_with_ai");
+        A0B = c5id45;
+        C5id c5id46 = new C5id("SMART_GLASSES", 45, "smart_glasses");
+        A0w = c5id46;
+        C5id c5id47 = new C5id("SMART_GLASSES_VIDEO_CALL_LEARN_MORE", 46, "smart_glasses_video_call_learn_more");
+        A0x = c5id47;
+        C5id c5id48 = new C5id("CSAM", 47, "csam");
+        A0C = c5id48;
+        C5id c5id49 = new C5id("CM_GEN_AI_SUGGESTED_CHATS_LEARN_MORE", 48, "cm_gen_ai_suggested_chats_learn_more");
+        A06 = c5id49;
+        C5id c5id50 = new C5id("PRO_MODE_BUSINESS_TOOLS_LEARN_MORE_E2EE", 49, "pro_mode_business_tools_learn_more_e2ee");
+        A0n = c5id50;
+        C5id c5id51 = new C5id("COMMUNITY_MESSAGING_HIGHLIGHTS", 50, "community_messaging_highlights");
+        A07 = c5id51;
+        C5id c5id52 = new C5id("IN_APP_BROWSER_DEEPLINK", 51, "in_app_browser_deeplink");
+        A0M = c5id52;
+        C5id c5id53 = new C5id("PUBLIC_CHANNELS_INCREMENTALITY_BUTTON", 52, "public_channels_incrementality_button");
+        A0o = c5id53;
+        C5id c5id54 = new C5id("MESSAGE_TRANSLATION_NUX_LEARN_MORE_E2EE", 53, "message_translation_nux_learn_more_e2ee");
+        A0V = c5id54;
+        C5id c5id55 = new C5id("MEMU_ONBOARDING", 54, "memu_onboarding");
+        A0T = c5id55;
+        C5id c5id56 = new C5id("THIRD_PARTY_APPS_SETTINGS", 55, "third_party_apps_settings");
+        A0z = c5id56;
+        C5id c5id57 = new C5id("MALWARE_INTERVENTION_LEARN_MORE", 56, "malware_intervention_learn_more");
+        A0N = c5id57;
+        C5id c5id58 = new C5id("DECRYPTION_FAILURE_LEARN_MORE", 57, "decryption_failure_learn_more");
+        A0D = c5id58;
+        C5id c5id59 = new C5id("MESSENGER_META_AI_VOICE", 58, "messenger_meta_ai_voice");
+        A0b = c5id59;
+        C5id c5id60 = new C5id("MESSENGER_SAFETY_INTERVENTION_PLATFORM", 59, "messenger_safety_intervention_platform");
+        A0d = c5id60;
+        C5id c5id61 = new C5id("MESSENGER_USERNAMES_UPSELL_LEARN_MORE", 60, "messenger_usernames_upsell_learn_more");
+        A0k = c5id61;
+        C5id c5id62 = new C5id(OffsiteInitAvailabilityRequestKt.DEFAULT_PARTNER_ID, 61, "unknown");
+        A10 = c5id62;
+        C5id[] c5idArr = new C5id[62];
+        System.arraycopy(new C5id[]{c5id, c5id2, c5id3, c5id4, c5id5, c5id6, c5id7, c5id8, c5id9, c5id10, c5id11, c5id12, c5id13, c5id14, c5id15, c5id16, c5id17, c5id18, c5id19, c5id20, c5id21, c5id22, c5id23, c5id24, c5id25, c5id26, c5id27}, 0, c5idArr, 0, 27);
+        System.arraycopy(new C5id[]{c5id28, c5id29, c5id30, c5id31, c5id32, c5id33, c5id34, c5id35, c5id36, c5id37, c5id38, c5id39, c5id40, c5id41, c5id42, c5id43, c5id44, c5id45, c5id46, c5id47, c5id48, c5id49, c5id50, c5id51, c5id52, c5id53, c5id54}, 0, c5idArr, 27, 27);
+        System.arraycopy(new C5id[]{c5id55, c5id56, c5id57, c5id58, c5id59, c5id60, c5id61, c5id62}, 0, c5idArr, 54, 8);
+        A00 = c5idArr;
+    }
+
+    public C5id(String str, int i, String str2) {
+        this.value = str2;
+    }
+
+    public static C5id valueOf(String str) {
+        return (C5id) Enum.valueOf(C5id.class, str);
+    }
+
+    public static C5id[] values() {
+        return (C5id[]) A00.clone();
+    }
+}

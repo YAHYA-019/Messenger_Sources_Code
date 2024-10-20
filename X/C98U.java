@@ -1,0 +1,38 @@
+package X;
+
+/* renamed from: X.98U, reason: invalid class name */
+/* loaded from: 98U.class */
+public enum C98U implements AYT {
+    PRIMARY(2132213883, -16777216),
+    PRIMARY_DARK(2132213866, -1),
+    SECONDARY(2132214464, 2130706432),
+    SECONDARY_DARK(2132214465, 1845493759),
+    TERTIARY(2132214474, 1442840576),
+    TERTIARY_DARK(2132214465, 1845493759),
+    HINT(2132214464, 2130706432),
+    HINT_DARK(2132214465, 1845493759),
+    DISABLED(2132214460, 2139524761),
+    DISABLED_DARK(2132214461, 2140905640),
+    INVERSE_PRIMARY(2132213866, -1),
+    INVERSE_PRIMARY_DARK(2132213866, -1),
+    BLUE(2132214411, -16089857),
+    BLUE_DARK(2132213903, -12412161),
+    RED(2132214472, -50637),
+    RED_DARK(2132214473, -46782),
+    GREEN(2132214462, -13513658),
+    GREEN_DARK(2132214463, -12200360),
+    WHITE(2132213766, -1),
+    WHITE_50(2132213870, -2130706433);
+
+    public final int colorInt;
+    public final int colorResId;
+
+    C98U(int i, int i2) {
+        this.colorResId = i;
+        this.colorInt = i2;
+    }
+
+    public int Acz() {
+        return this.colorInt;
+    }
+}

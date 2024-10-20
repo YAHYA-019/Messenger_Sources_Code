@@ -1,0 +1,21 @@
+package com.facebook.graphql.enums;
+
+import X.02H;
+import X.1BK;
+import java.util.HashSet;
+import java.util.Set;
+
+/* loaded from: GraphQLMessengerAdsConversionDetectionTypeSet.class */
+public final class GraphQLMessengerAdsConversionDetectionTypeSet {
+    public static final HashSet A00;
+
+    static {
+        String[] strArr = new String[35];
+        System.arraycopy(new String[]{"MARK_AS_LEAD", "NONE", "PURCHASE_OPTIMIZATION_THREAD_UPSELL", "SAVED_REPLIES_UPSELL", "SELLER_CREATE_INVOICE", "SELLER_ONBOARD", "SHIPPOP_UPSELL", "SUGGEST_AS_YOU_TYPE"}, 1BK.A1W(new String[]{"ADS_EXTENSION_BANNER", "ADS_INSIGHTS_MARK_AS_ORDER", "APPOINTMENT", "APPOINTMENT_DEPRECATED", "AUTOMATED_RESPONSE_UPSELL", "BUSINESS_PURCHASE", "BUSINESS_PURCHASE_DEPRECATED", "BUYER_INFORMATION", "CONFIRM_ORDER", "CONFIRM_ORDER_AFTER_FOLLOWUP", "CONFIRM_ORDER_DEPRECATED", "CONFIRM_ORDER_INTENT", "CONFIRM_SHIPPED_ORDER", "CONSUMER_QUESTION", "CONVERSATION_FEEDBACK_LEAD_QUALITY", "CONVERSATION_FEEDBACK_SELLER_SENTIMENT", "CTM_CALL", "CTM_THREAD_UPSELL", "CTS_THREAD_UPSELL", "CTX_AD_DUPLICATION_UPSELL", "GENERIC", "INCOMPLETE_LEAD", "INSTANT_REPLIES", "INSTANT_REPLIES_DEPRECATED", "JOBS_CREATOR_FEEDBACK", "LEAD_QUALITY_SIGNAL", "LWI"}, strArr) ? 1 : 0, strArr, 27, 8);
+        A00 = 02H.A00(strArr);
+    }
+
+    public static final Set getSet() {
+        return A00;
+    }
+}

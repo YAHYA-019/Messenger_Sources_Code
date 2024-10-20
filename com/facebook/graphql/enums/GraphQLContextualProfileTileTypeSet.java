@@ -1,0 +1,21 @@
+package com.facebook.graphql.enums;
+
+import X.02H;
+import X.1BK;
+import java.util.HashSet;
+import java.util.Set;
+
+/* loaded from: GraphQLContextualProfileTileTypeSet.class */
+public final class GraphQLContextualProfileTileTypeSet {
+    public static final HashSet A00;
+
+    static {
+        String[] strArr = new String[31];
+        System.arraycopy(new String[]{"TEST_TILE", "THINGS_IN_COMMON", "USER_SIGNALS", "WORK_INFORMATION"}, 1BK.A1W(new String[]{"CLAIMABLE_MEMBER_BADGES", "COMMUNITY_AWARDS", "COMMUNITY_AWARDS_EARNINGS", "GAMING_ACTIVITY", "GROUP_ADMIN_INSIGHTS", "GROUP_EXPERTISE", "GROUP_MEMBER_INTEGRITY_STATS", "GROUP_MEMBER_RECENT_ACTIVITY", "GROUP_POSTS", "GROUP_QUESTIONS", "MARKETPLACE_LISTINGS", "MEMBER_BADGES", "MEMBER_QUESTIONS", "MEMBER_STATS", "NEIGHBORHOODS_AWARDS", "NEIGHBORHOODS_FAVORITE_PLACES", "NEIGHBORHOODS_INTERESTS", "NEIGHBORHOODS_MEMBER_BADGES", "NEIGHBORHOODS_PETS", "NEIGHBORHOODS_ROLES_V2", "RECENT_PHOTOS", "REPUTATION_SYSTEM_ACTIVITY", "REPUTATION_SYSTEM_CONTRIBUTIONS", "REPUTATION_SYSTEM_FAQS", "REPUTATION_SYSTEM_PERCENTILE_RANK", "REPUTATION_SYSTEM_POINTS_BY_CATEGORY", "REPUTATION_SYSTEM_SEE_YOUR_POINTS"}, strArr) ? 1 : 0, strArr, 27, 4);
+        A00 = 02H.A00(strArr);
+    }
+
+    public static final Set getSet() {
+        return A00;
+    }
+}

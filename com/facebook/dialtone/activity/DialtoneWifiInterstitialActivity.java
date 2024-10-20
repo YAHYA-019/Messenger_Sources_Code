@@ -1,0 +1,97 @@
+package com.facebook.dialtone.activity;
+
+import X.0FI;
+import X.1BK;
+import X.1QE;
+import X.1iF;
+import X.1lN;
+import X.2Jy;
+import X.4YU;
+import X.AbH;
+import X.AbL;
+import X.C00i;
+import X.C1kw;
+import X.C2J3;
+import X.DKC;
+import X.DKD;
+import X.DKF;
+import X.DTl;
+import X.FXr;
+import X.GCX;
+import android.os.Bundle;
+import android.widget.TextView;
+import com.facebook.base.activity.FbFragmentActivity;
+
+/* loaded from: DialtoneWifiInterstitialActivity.class */
+public class DialtoneWifiInterstitialActivity extends FbFragmentActivity implements 1lN, GCX {
+    public final C00i A00 = DKD.A0R();
+    public final C00i A01 = AbH.A0P();
+    public final C00i A03 = DKD.A0T();
+    public final C00i A02 = DKF.A0M();
+
+    public static void A12(DialtoneWifiInterstitialActivity dialtoneWifiInterstitialActivity, String str) {
+        2Jy A0H = 4YU.A0H(str);
+        A0H.A0D("pigeon_reserved_keyword_module", "dialtone");
+        A0H.A0D("carrier_id", DKC.A0i(dialtoneWifiInterstitialActivity.A03).A08(1QE.A02));
+        C1kw A06 = 1BK.A06(dialtoneWifiInterstitialActivity.A01);
+        if (DTl.A00 == null) {
+            synchronized (DTl.class) {
+                if (DTl.A00 == null) {
+                    DTl.A00 = new C2J3(A06);
+                }
+            }
+        }
+        DTl.A00.A03(A0H);
+    }
+
+    @Override // com.facebook.base.activity.FbFragmentActivity
+    public 1iF A2g() {
+        return AbL.A0A();
+    }
+
+    @Override // com.facebook.base.activity.FbFragmentActivity
+    public void A2y(Bundle bundle) {
+        super.A2y(bundle);
+        setContentView(2131558404);
+        TextView A0J = DKC.A0J(this, 2131368085);
+        String string = getString(2131955762);
+        A0J.setText(string);
+        A0J.setContentDescription(string);
+        TextView A0J2 = DKC.A0J(this, 2131363605);
+        String A04 = DKF.A0i(this.A02).A04("to_use_facebook_text_mode", 1BK.A0v(this, DKC.A0i(this.A03).A0C(1QE.A01, getString(2131955747)), 2131955761));
+        A0J2.setText(A04);
+        A0J2.setContentDescription(A04);
+        FXr.A03(A2c(2131366086), this, 28);
+    }
+
+    public String AWg() {
+        return "dialtone_wifi_interstitial";
+    }
+
+    public Long Am7() {
+        return null;
+    }
+
+    @Override // com.facebook.base.activity.FbFragmentActivity, androidx.activity.ComponentActivity, android.app.Activity
+    public void onBackPressed() {
+        4YU.A0K(this.A00).A0I("dialtone_wifi_interstitial_back_pressed");
+        super.onBackPressed();
+        A12(this, "dialtone_wifi_interstitial_back_pressed");
+    }
+
+    @Override // com.facebook.base.activity.FbFragmentActivity, androidx.fragment.app.FragmentActivity, android.app.Activity
+    public void onPause() {
+        int A00 = 0FI.A00(-784858113);
+        super.onPause();
+        A12(this, "dialtone_wifi_interstitial_become_invisible");
+        0FI.A07(144944523, A00);
+    }
+
+    @Override // com.facebook.base.activity.FbFragmentActivity, androidx.fragment.app.FragmentActivity, android.app.Activity
+    public void onResume() {
+        int A00 = 0FI.A00(-1526256487);
+        super.onResume();
+        A12(this, "dialtone_wifi_interstitial_impression");
+        0FI.A07(360583960, A00);
+    }
+}

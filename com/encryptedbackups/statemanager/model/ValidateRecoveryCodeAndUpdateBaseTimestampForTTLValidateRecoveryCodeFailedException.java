@@ -1,0 +1,5 @@
+package com.encryptedbackups.statemanager.model;
+
+/* loaded from: ValidateRecoveryCodeAndUpdateBaseTimestampForTTLValidateRecoveryCodeFailedException.class */
+public final class ValidateRecoveryCodeAndUpdateBaseTimestampForTTLValidateRecoveryCodeFailedException extends Exception {
+}

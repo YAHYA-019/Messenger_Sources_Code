@@ -1,0 +1,41 @@
+package com.facebook.messaging.navigation.home.drawer.model;
+
+import X.0Pz;
+import X.11T;
+import X.CST;
+import android.os.Parcel;
+import android.os.Parcelable;
+
+/* loaded from: DiscoverCommunitiesDrawerFolderKey.class */
+public final class DiscoverCommunitiesDrawerFolderKey extends DrawerFolderKey {
+    public static final Parcelable.Creator CREATOR = CST.A00(49);
+    public final String A00;
+
+    public DiscoverCommunitiesDrawerFolderKey(String str) {
+        11T.A0F(str, 1);
+        this.A00 = str;
+    }
+
+    @Override // android.os.Parcelable
+    public int describeContents() {
+        return 0;
+    }
+
+    public boolean equals(Object obj) {
+        return this == obj || ((obj instanceof DiscoverCommunitiesDrawerFolderKey) && 11T.A0O(this.A00, ((DiscoverCommunitiesDrawerFolderKey) obj).A00));
+    }
+
+    public int hashCode() {
+        return this.A00.hashCode();
+    }
+
+    public String toString() {
+        return 0Pz.A0X("DiscoverCommunitiesDrawerFolderKey(discoverCommunitiesDrawerFolderKey=", this.A00, ')');
+    }
+
+    @Override // android.os.Parcelable
+    public void writeToParcel(Parcel parcel, int i) {
+        11T.A0F(parcel, 0);
+        parcel.writeString(this.A00);
+    }
+}

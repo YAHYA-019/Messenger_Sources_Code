@@ -1,0 +1,23 @@
+package X;
+
+/* renamed from: X.16m, reason: invalid class name */
+/* loaded from: 16m.class */
+public enum C16m {
+    SERVICE_START,
+    SERVICE_RESTART,
+    PERSISTENT_KICK,
+    CONNECTIVITY_CHANGED,
+    CONFIG_CHANGED,
+    EXPIRE_CONNECTION,
+    CONNECT_NOW,
+    CONNECTION_LOST,
+    KEEPALIVE,
+    APP_FOREGROUND,
+    FBNS_REGISTER,
+    FBNS_REGISTER_RETRY,
+    FBNS_UNREGISTER,
+    CREDENTIALS_UPDATED,
+    CLIENT_KICK,
+    AUTH_CREDENTIALS_CHANGE,
+    FORCE_KICK
+}
